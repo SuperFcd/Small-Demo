@@ -1,0 +1,37 @@
+@media screen and (min-width:800px){
+    .warp{
+        width: 200px;
+        height: 300px;
+        margin:  0 auto;
+        position: relative;
+    }
+    .my-img{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        
+        /* border: 1px solid hotpink;
+        font-size: 28px;
+        color: hotpink;
+        line-height: 200px;
+        text-align: center; */
+        background: url(../images/6.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+    }
+    /* .fonttext:hover{
+        opacity: .6;
+    } */
+    .my-shadow{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 2;
+        background: rgb(0,0,0,.6);
+        display: none;
+        color:white;
+        text-align: center;
+    }
+}	
